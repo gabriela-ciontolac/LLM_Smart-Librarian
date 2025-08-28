@@ -1,0 +1,50 @@
+# Node
+node_modules/
+dist/
+.env
+*.log
+
+# Vite
+.vite
+
+# TypeScript
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env.*
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+
+# Misc
+*.swp
+*.swo
+.idea/
+*.bak
+*.tmp
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Backend
+backend/venv/
+backend/__pycache__/
+backend/.env
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
