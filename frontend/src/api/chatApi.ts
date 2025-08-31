@@ -1,5 +1,6 @@
 const API_URL = "http://localhost:8000/recommend";
-import { BotMessage } from "../types/BotMessage";
+import type { BotMessage } from "../types/BotMessage";
+
 
 export async function sendChatMessage(question: string): Promise<BotMessage> {
   const res = await fetch(API_URL, {
